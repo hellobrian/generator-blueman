@@ -80,6 +80,7 @@ var BluemanGenerator = yeoman.generators.Base.extend({
       this.copy('_bower.json', 'bower.json');
       this.copy('app.js', 'app.js');
       this.copy('public/css/main.css', 'public/css/main.css');
+      this.copy('.cfignore', '.cfignore');
     },
 
     projectfiles: function () {
